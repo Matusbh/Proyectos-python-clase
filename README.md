@@ -1,27 +1,54 @@
 # 🐍 Proyectos Python - Prácticas de Clase
 
-Este repositorio contiene una colección de ejercicios realizados en clase con Python. Son proyectos sencillos, enfocados en lógica, interfaz con Tkinter o pequeños juegos desarrollados con fines didácticos.
+Este repositorio contiene una colección de ejercicios realizados en clase con Python. Son proyectos sencillos, con GUI o juegos simples, enfocados en aprender lógica, estructuras básicas y librerías como `tkinter`, `pygame` y `turtle`.
 
-> ⚠️ **Nota personal:** Estos proyectos fueron realizados al principio del curso, cuando aún no sabía estructurar carpetas ni organizar archivos correctamente. No representan un código profesional, pero sí muestran que manejo lo básico de Python y sé desarrollar pequeños programas funcionales.
+> ⚠️ **Nota personal:** Estos proyectos fueron realizados al principio del curso, cuando todavía no sabía estructurar bien los archivos ni carpetas. No están optimizados, pero sirven para demostrar que sé usar Python y construir programas funcionales.
 
 ---
 
 ## 📂 Índice de proyectos
 
-- [01 - Despertador]
-  Usa `tkinter` y `pygame` para activar una alarma con sonido a la hora indicada.
-
-- [02 - Calculadora]
-  Calculadora sencilla con interfaz gráfica desarrollada con `tkinter`.
-
-- [03 - Piedra, Papel o Tijera]  
-  Juego visual de piedra-papel-tijera contra el ordenador, con imágenes personalizadas.
-  
 ---
 
-## 🛠 Requisitos para ejecutarlos
+### 🕰️ 01 - Despertador  
+Aplicación con interfaz gráfica que te permite programar una alarma a una hora concreta. Reproduce sonido y muestra mensajes emergentes.
 
-- Tener **Python 3** instalado.
-- Algunos proyectos requieren instalar módulos externos:
-  ```bash
-  pip install pygame
+📸 Vista previa:  
+![Despertador](./Despertador-preview.PNG)
+
+---
+
+### 🧮 02 - Calculadora  
+Calculadora básica con GUI en `tkinter`. Permite realizar operaciones simples con una interfaz clara.
+
+📸 Vista previa:  
+![Calculadora](./Calculadora-preview.PNG)
+
+---
+
+### ✊✋✌️ 03 - Piedra, Papel o Tijera  
+Juego clásico contra el ordenador, con imágenes y selección aleatoria. Usa `tkinter` y muestra el resultado visualmente.
+
+📸 Vista previa menú:  
+![Menú PPT](./ppt-preview.PNG)
+
+📸 Vista previa en partida:  
+![Juego PPT](./ppt.juego-preview.PNG)
+
+---
+
+## 🧰 Tecnologías usadas
+
+- Python 3  
+- Tkinter  
+- Pygame  
+- Turtle (en algunos casos)
+
+---
+
+## ▶️ Cómo ejecutar los proyectos
+
+1. Asegúrate de tener Python 3 instalado.
+2. Si un proyecto necesita sonido:
+   ```bash
+   pip install pygame
