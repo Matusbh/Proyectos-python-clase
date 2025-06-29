@@ -25,6 +25,3 @@ Este repositorio contiene una colección de ejercicios realizados en clase con P
 - Algunos proyectos requieren instalar módulos externos:
   ```bash
   pip install pygame
-
-  ---
-  
