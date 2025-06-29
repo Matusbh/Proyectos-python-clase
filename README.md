@@ -8,13 +8,13 @@ Este repositorio contiene una colección de ejercicios realizados en clase con P
 
 ## 📂 Índice de proyectos
 
-- [01 - Despertador](./01-despertador)  
+- [01 - Despertador]
   Usa `tkinter` y `pygame` para activar una alarma con sonido a la hora indicada.
 
-- [02 - Calculadora](./02-calculadora)  
+- [02 - Calculadora]
   Calculadora sencilla con interfaz gráfica desarrollada con `tkinter`.
 
-- [03 - Piedra, Papel o Tijera](./03-piedra-papel-tijera)  
+- [03 - Piedra, Papel o Tijera]  
   Juego visual de piedra-papel-tijera contra el ordenador, con imágenes personalizadas.
   
 ---
